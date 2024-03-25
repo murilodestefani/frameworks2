@@ -1,6 +1,21 @@
 .card-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.food-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.food-list > h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.food-list,
+span {
+  text-align: center;
 }

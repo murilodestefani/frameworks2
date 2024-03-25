@@ -29,16 +29,16 @@ export function Produto() {
 
   return (
     <div>
-      <h1 className="title">Página de Produtos</h1>
+      <div className="cabecalho">
+        <h1 className="title">Página de Produtos</h1>
+      </div>
 
       <div className="card-list">
         {foods.map((item, index) => (
-          <div className="container">
-            <div key={index}>
-              <img src={item.food.image} alt={item.food.label} />
-              <p>{item.food.label}</p>
-              <p>{item.food.category}</p>
-            </div>
+          <div key={index} className="food-list">
+            <img src={item.food.image} alt={item.food.label} />
+            <h3>{item.food.label}</h3>
+            <p>{item.food.category}</p>
           </div>
         ))}
       </div>

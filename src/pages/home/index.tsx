@@ -5,7 +5,7 @@ import "./style.css";
 export function Home() {
   const cardData = {
     imageUrl: bdImg,
-    title: "Titulo Card",
+    title: "Título Card",
     text: "Texto que aparece no corpo de card",
     buttonText: "Ver Detalhes",
     buttonUrl: "#",
